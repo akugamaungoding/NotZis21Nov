@@ -29,6 +29,10 @@ export default function SongRequest() {
     setLoading(true)
 
     try {
+      if (!supabase) {
+        throw new Error('Supabase is not configured')
+      }
+
       const { error: supabaseError } = await supabase
         .from('song_requests')
         .insert([{ name, song_title: songTitle.trim() }])
