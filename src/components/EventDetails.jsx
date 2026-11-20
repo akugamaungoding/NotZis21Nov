@@ -28,7 +28,7 @@ export default function EventDetails() {
           <span className="card-label">Location</span>
           <a
             className="location-btn"
-            href="https://share.google/HO16aHgigSYPtNRjl"
+            href="https://maps.app.goo.gl/xkeXdqDbZ9QRmEY68?g_st=ic"
             target="_blank"
             rel="noopener noreferrer"
           >
